@@ -136,7 +136,7 @@
                 <input type="name" class="form-control" name="username" placeholder="Username" required>
             </div>
             <div class="form-group">
-                <label for="Password" class="control-label">Password (eg; Demo1006@)</label>
+                <label for="Password" class="control-label">Password</label>
                 <input type="password"  name="password" class="form-control" placeholder="Password" required>
             </div>
             <div class="form-group">
