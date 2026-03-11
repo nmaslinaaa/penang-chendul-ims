@@ -199,7 +199,7 @@ public class UpdateRemainQuantityServlet extends HttpServlet {
         try {
             String url = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
             String dbUser = "root";
-            String password = "";
+            String password = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
             Class.forName("org.mariadb.jdbc.Driver");
             connection = DriverManager.getConnection(url, dbUser, password);
 

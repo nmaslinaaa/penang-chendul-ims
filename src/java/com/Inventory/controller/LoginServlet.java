@@ -43,7 +43,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
     // Normalize username to lowercase for case-insensitive login
     String normalizedUsername = username.trim().toLowerCase();
 
-    // Load the JDBC driver for MariaDB
+    // Load the JDBC driver for Railway
     try {
         Class.forName("org.mariadb.jdbc.Driver");
     } catch (ClassNotFoundException e) {
