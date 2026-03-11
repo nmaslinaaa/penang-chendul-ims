@@ -24,9 +24,9 @@ import java.util.List;
 
 
 public class ItemServlet extends HttpServlet {
-    private static final String DB_URL = "jdbc:mariadb://localhost:3306/pcims";
+    private static final String DB_URL = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "";
+    private static final String DB_PASSWORD = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

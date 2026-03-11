@@ -27,9 +27,9 @@ public class UpdateOrderStatusServlet extends HttpServlet {
         String message = "";
         String alertClass = "";
 
-        String url = "jdbc:mariadb://localhost:3306/pcims";
+        String url = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
         String dbUser = "root";
-        String password = "";
+        String password = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
         Connection connection = null;
 
         try {

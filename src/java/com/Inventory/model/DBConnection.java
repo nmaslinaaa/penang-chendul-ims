@@ -10,9 +10,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String DB_URL = "jdbc:mariadb://localhost:3306/pcims";
+    private static final String DB_URL = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "";
+    private static final String DB_PASS = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);

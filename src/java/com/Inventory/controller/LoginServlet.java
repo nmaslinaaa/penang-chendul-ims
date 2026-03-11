@@ -53,9 +53,9 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
     }
 
     // Database URL, username, and password
-    String dbUrl = "jdbc:mariadb://localhost:3306/pcims";
+    String dbUrl = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
     String dbUser = "root";
-    String dbPassword = "";
+    String dbPassword = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
 
     // Connection to the database
     try (Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
