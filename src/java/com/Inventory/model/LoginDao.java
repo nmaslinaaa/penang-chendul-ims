@@ -9,9 +9,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class LoginDao {
-    private static final String jdbcURL = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
+    private static final String jdbcURL = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
     private static final String jdbcUsername = "root";
-    private static final String jdbcPassword = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
+    private static final String jdbcPassword = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
     private static final String SELECT_USER_SQL = "SELECT * FROM users WHERE username = ? AND password = ?";
     private static final Logger logger = Logger.getLogger(LoginDao.class.getName());
 

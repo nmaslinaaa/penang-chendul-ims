@@ -22,9 +22,9 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class ViewItemsUsedServlet extends HttpServlet {
-    private static final String DB_URL = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
+    private static final String DB_URL = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
+    private static final String DB_PASSWORD = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

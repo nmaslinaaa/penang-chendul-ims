@@ -36,9 +36,9 @@
     }
 
     // Database connection details
-    String url = "jdbc:mariadb://localhost:3306/pcims";
+    String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
     String dbUser = "root";
-    String password = "";
+    String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 %>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>

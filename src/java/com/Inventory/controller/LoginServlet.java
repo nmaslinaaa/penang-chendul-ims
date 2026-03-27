@@ -53,9 +53,9 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
     }
 
     // Database URL, username, and password
-    String dbUrl = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
+    String dbUrl = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
     String dbUser = "root";
-    String dbPassword = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
+    String dbPassword = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 
     // Connection to the database
     try (Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
