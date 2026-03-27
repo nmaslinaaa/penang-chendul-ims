@@ -70,9 +70,9 @@ public class UpdateRemainQuantityServlet extends HttpServlet {
             }
         }
 
-        String url = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
+        String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=true&requireSSL=true&verifyServerCertificate=false";
         String dbUser = "root";
-        String password = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
+        String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
         Connection connection = null;
 
         try {
@@ -197,7 +197,7 @@ public class UpdateRemainQuantityServlet extends HttpServlet {
         // Get items for dropdown
         Connection connection = null;
         try {
-            String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
+            String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=true&requireSSL=true&verifyServerCertificate=false";
             String dbUser = "root";
             String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
             Class.forName("org.mariadb.jdbc.Driver");

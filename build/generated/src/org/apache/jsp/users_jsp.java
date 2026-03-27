@@ -85,17 +85,17 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
       out.write('\n');
       out.write('\n');
       out.write("\n");
@@ -146,8 +146,8 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
         return;
       out.write("\n");
       out.write("</div>\n");
-      out.write('\n');
-      out.write('\n');
+      out.write("\r\n");
+      out.write("\r\n");
 
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
     response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
@@ -166,9 +166,9 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
     }
 
     // Database connection details
-    String url = "jdbc:mariadb://localhost:3306/pcims";
+    String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
     String dbUser = "root";
-    String password = "";
+    String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 
     Connection conn = null;
     List<User> all_users = null;
@@ -207,19 +207,19 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
         session.removeAttribute("error");
     }
 
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("<head>\n");
-      out.write("    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("    <title>Users Page</title>\n");
-      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\n");
-      out.write("    <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css\" />\n");
-      out.write("    <link rel=\"stylesheet\" href=\"style.css\" />\n");
-      out.write("    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n");
-      out.write("</head>\n");
-      out.write("<body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("<head>\r\n");
+      out.write("    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
+      out.write("    <title>Users Page</title>\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css\" />\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"style.css\" />\r\n");
+      out.write("    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
       out.write("    ");
       out.write('\n');
       out.write('\n');
@@ -271,95 +271,95 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
         return;
       out.write("\n");
       out.write("</div>\n");
-      out.write("\n");
-      out.write("    <div class=\"pageuser\">\n");
-      out.write("        <div class=\"rowuser\">\n");
-      out.write("            <div class=\"col-md-12\">\n");
-      out.write("                <div id=\"alert-container\">\n");
+      out.write("\r\n");
+      out.write("    <div class=\"pageuser\">\r\n");
+      out.write("        <div class=\"rowuser\">\r\n");
+      out.write("            <div class=\"col-md-12\">\r\n");
+      out.write("                <div id=\"alert-container\">\r\n");
       out.write("                    ");
       if (_jspx_meth_c_if_4(_jspx_page_context))
         return;
-      out.write("\n");
+      out.write("\r\n");
       out.write("                    ");
       if (_jspx_meth_c_if_5(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("        <div class=\"row\">\n");
-      out.write("            <div class=\"col-md-12\">\n");
-      out.write("                <div class=\"panel panel-default\">\n");
-      out.write("                    <div class=\"panel-heading clearfix\">\n");
-      out.write("                        <strong>\n");
-      out.write("                            <span class=\"glyphicon glyphicon-th\"></span>\n");
-      out.write("                            <span>Users</span>\n");
-      out.write("                        </strong>\n");
-      out.write("                        <a href=\"add_user.jsp\" class=\"btn btn-info pull-right\">Add New User</a>\n");
-      out.write("                    </div>\n");
-      out.write("                    <div class=\"panel-body\">\n");
-      out.write("                        <table class=\"table table-bordered table-striped\">\n");
-      out.write("                            <thead>\n");
-      out.write("                                <tr>\n");
-      out.write("                                    <th class=\"text-center\" style=\"width: 50px;\">#</th>\n");
-      out.write("                                    <th>Name</th>\n");
-      out.write("                                    <th>Username</th>\n");
-      out.write("                                    <th class=\"text-center\" style=\"width: 15%;\">User Role</th>\n");
-      out.write("                                    <th class=\"text-center\" style=\"width: 10%;\">Status</th>\n");
-      out.write("                                    <th style=\"width: 20%;\">Last Login</th>\n");
-      out.write("                                    <th class=\"text-center\" style=\"width: 100px;\">Actions</th>\n");
-      out.write("                                </tr>\n");
-      out.write("                            </thead>\n");
-      out.write("                            <tbody>\n");
+      out.write("\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        <div class=\"row\">\r\n");
+      out.write("            <div class=\"col-md-12\">\r\n");
+      out.write("                <div class=\"panel panel-default\">\r\n");
+      out.write("                    <div class=\"panel-heading clearfix\">\r\n");
+      out.write("                        <strong>\r\n");
+      out.write("                            <span class=\"glyphicon glyphicon-th\"></span>\r\n");
+      out.write("                            <span>Users</span>\r\n");
+      out.write("                        </strong>\r\n");
+      out.write("                        <a href=\"add_user.jsp\" class=\"btn btn-info pull-right\">Add New User</a>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                    <div class=\"panel-body\">\r\n");
+      out.write("                        <table class=\"table table-bordered table-striped\">\r\n");
+      out.write("                            <thead>\r\n");
+      out.write("                                <tr>\r\n");
+      out.write("                                    <th class=\"text-center\" style=\"width: 50px;\">#</th>\r\n");
+      out.write("                                    <th>Name</th>\r\n");
+      out.write("                                    <th>Username</th>\r\n");
+      out.write("                                    <th class=\"text-center\" style=\"width: 15%;\">User Role</th>\r\n");
+      out.write("                                    <th class=\"text-center\" style=\"width: 10%;\">Status</th>\r\n");
+      out.write("                                    <th style=\"width: 20%;\">Last Login</th>\r\n");
+      out.write("                                    <th class=\"text-center\" style=\"width: 100px;\">Actions</th>\r\n");
+      out.write("                                </tr>\r\n");
+      out.write("                            </thead>\r\n");
+      out.write("                            <tbody>\r\n");
       out.write("                                ");
       if (_jspx_meth_c_forEach_0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("                            </tbody>\n");
-      out.write("                        </table>\n");
-      out.write("                    </div>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("    </div>\n");
-      out.write("\n");
-      out.write("    <!-- Delete Confirmation Modal -->\n");
-      out.write("    <div class=\"modal fade\" id=\"deleteModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteModalLabel\">\n");
-      out.write("        <div class=\"modal-dialog\" role=\"document\">\n");
-      out.write("            <div class=\"modal-content\">\n");
-      out.write("                <div class=\"modal-header\">\n");
-      out.write("                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n");
-      out.write("                    <h4 class=\"modal-title\" id=\"deleteModalLabel\">Confirm Delete</h4>\n");
-      out.write("                </div>\n");
-      out.write("                <div class=\"modal-body\">\n");
-      out.write("                    Are you sure you want to delete this user? You will lose all the details associated with this user.\n");
-      out.write("                </div>\n");
-      out.write("                <div class=\"modal-footer\">\n");
-      out.write("                    <form method=\"get\" action=\"DeleteUserServlet\">\n");
-      out.write("                        <input type=\"hidden\" name=\"userID\" id=\"userID\" value=\"\">\n");
-      out.write("                        <button type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\">Cancel</button>\n");
-      out.write("                        <button type=\"submit\" class=\"btn btn-default\">Yes</button>\n");
-      out.write("                    </form>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("    </div>\n");
-      out.write("\n");
-      out.write("    <script>\n");
-      out.write("        function confirmDelete(userID) {\n");
-      out.write("            $('#userID').val(userID);\n");
-      out.write("            $('#deleteModal').modal('show');\n");
-      out.write("        }\n");
-      out.write("\n");
-      out.write("        window.onload = function() {\n");
-      out.write("            setTimeout(function() {\n");
-      out.write("                var alert = document.querySelector('.alert');\n");
-      out.write("                if (alert) {\n");
-      out.write("                    alert.style.display = 'none';\n");
-      out.write("                }\n");
-      out.write("            }, 5000); // Hide the alert after 1.5 seconds\n");
-      out.write("        };\n");
-      out.write("    </script>\n");
+      out.write("\r\n");
+      out.write("                            </tbody>\r\n");
+      out.write("                        </table>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("    </div>\r\n");
+      out.write("\r\n");
+      out.write("    <!-- Delete Confirmation Modal -->\r\n");
+      out.write("    <div class=\"modal fade\" id=\"deleteModal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"deleteModalLabel\">\r\n");
+      out.write("        <div class=\"modal-dialog\" role=\"document\">\r\n");
+      out.write("            <div class=\"modal-content\">\r\n");
+      out.write("                <div class=\"modal-header\">\r\n");
+      out.write("                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\r\n");
+      out.write("                    <h4 class=\"modal-title\" id=\"deleteModalLabel\">Confirm Delete</h4>\r\n");
+      out.write("                </div>\r\n");
+      out.write("                <div class=\"modal-body\">\r\n");
+      out.write("                    Are you sure you want to delete this user? You will lose all the details associated with this user.\r\n");
+      out.write("                </div>\r\n");
+      out.write("                <div class=\"modal-footer\">\r\n");
+      out.write("                    <form method=\"get\" action=\"DeleteUserServlet\">\r\n");
+      out.write("                        <input type=\"hidden\" name=\"userID\" id=\"userID\" value=\"\">\r\n");
+      out.write("                        <button type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\">Cancel</button>\r\n");
+      out.write("                        <button type=\"submit\" class=\"btn btn-default\">Yes</button>\r\n");
+      out.write("                    </form>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("    </div>\r\n");
+      out.write("\r\n");
+      out.write("    <script>\r\n");
+      out.write("        function confirmDelete(userID) {\r\n");
+      out.write("            $('#userID').val(userID);\r\n");
+      out.write("            $('#deleteModal').modal('show');\r\n");
+      out.write("        }\r\n");
+      out.write("\r\n");
+      out.write("        window.onload = function() {\r\n");
+      out.write("            setTimeout(function() {\r\n");
+      out.write("                var alert = document.querySelector('.alert');\r\n");
+      out.write("                if (alert) {\r\n");
+      out.write("                    alert.style.display = 'none';\r\n");
+      out.write("                }\r\n");
+      out.write("            }, 5000); // Hide the alert after 1.5 seconds\r\n");
+      out.write("        };\r\n");
+      out.write("    </script>\r\n");
       out.write("    ");
       out.write("\n");
       out.write("\n");
@@ -391,17 +391,17 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js\"></script>\n");
       out.write("    <script src=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js\"></script>\n");
       out.write("    <script type=\"text/javascript\" src=\"libs/js/functions.js\"></script>");
-      out.write("\n");
-      out.write("</body>\n");
-      out.write("</html>\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
+      out.write("\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -555,13 +555,13 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
     int _jspx_eval_c_if_4 = _jspx_th_c_if_4.doStartTag();
     if (_jspx_eval_c_if_4 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
-        out.write("\n");
-        out.write("                        <div class=\"alert alert-success alert-dismissible\" role=\"alert\">\n");
-        out.write("                            <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n");
+        out.write("\r\n");
+        out.write("                        <div class=\"alert alert-success alert-dismissible\" role=\"alert\">\r\n");
+        out.write("                            <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\r\n");
         out.write("                            ");
         out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${msg}", java.lang.String.class, (PageContext)_jspx_page_context, null));
-        out.write("\n");
-        out.write("                        </div>\n");
+        out.write("\r\n");
+        out.write("                        </div>\r\n");
         out.write("                    ");
         int evalDoAfterBody = _jspx_th_c_if_4.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -588,13 +588,13 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
     int _jspx_eval_c_if_5 = _jspx_th_c_if_5.doStartTag();
     if (_jspx_eval_c_if_5 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
-        out.write("\n");
-        out.write("                        <div class=\"alert alert-danger alert-dismissible\" role=\"alert\">\n");
-        out.write("                            <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n");
+        out.write("\r\n");
+        out.write("                        <div class=\"alert alert-danger alert-dismissible\" role=\"alert\">\r\n");
+        out.write("                            <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\r\n");
         out.write("                            ");
         out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${error}", java.lang.String.class, (PageContext)_jspx_page_context, null));
-        out.write("\n");
-        out.write("                        </div>\n");
+        out.write("\r\n");
+        out.write("                        </div>\r\n");
         out.write("                    ");
         int evalDoAfterBody = _jspx_th_c_if_5.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -624,50 +624,50 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
       int _jspx_eval_c_forEach_0 = _jspx_th_c_forEach_0.doStartTag();
       if (_jspx_eval_c_forEach_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
         do {
-          out.write("\n");
-          out.write("                                    <tr>\n");
+          out.write("\r\n");
+          out.write("                                    <tr>\r\n");
           out.write("                                        <td class=\"text-center\">");
           if (_jspx_meth_c_out_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                                        <td>");
           if (_jspx_meth_c_out_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                                        <td>");
           if (_jspx_meth_c_out_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                                        <td class=\"text-center\">");
           if (_jspx_meth_c_out_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
-          out.write("                                        <td class=\"text-center\">\n");
+          out.write("</td>\r\n");
+          out.write("                                        <td class=\"text-center\">\r\n");
           out.write("                                            ");
           if (_jspx_meth_c_choose_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("\n");
-          out.write("                                        </td>\n");
+          out.write("\r\n");
+          out.write("                                        </td>\r\n");
           out.write("                                        <td>");
           if (_jspx_meth_fmt_formatDate_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
-          out.write("                                        <td class=\"text-center\">\n");
-          out.write("                                            <div class=\"btn-group\">\n");
+          out.write("</td>\r\n");
+          out.write("                                        <td class=\"text-center\">\r\n");
+          out.write("                                            <div class=\"btn-group\">\r\n");
           out.write("                                                <a href=\"UserController?userID=");
           if (_jspx_meth_c_out_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("\" class=\"btn btn-xs btn-warning\" data-toggle=\"tooltip\" title=\"Edit\">\n");
-          out.write("                                                    <i class=\"glyphicon glyphicon-pencil\"></i>\n");
-          out.write("                                                </a>\n");
+          out.write("\" class=\"btn btn-xs btn-warning\" data-toggle=\"tooltip\" title=\"Edit\">\r\n");
+          out.write("                                                    <i class=\"glyphicon glyphicon-pencil\"></i>\r\n");
+          out.write("                                                </a>\r\n");
           out.write("                                                <button type=\"button\" class=\"btn btn-xs btn-danger\" data-toggle=\"tooltip\" title=\"Remove\" onclick=\"confirmDelete('");
           out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${user.userID}", java.lang.String.class, (PageContext)_jspx_page_context, null));
-          out.write("')\">\n");
-          out.write("                                                    <i class=\"glyphicon glyphicon-remove\"></i>\n");
-          out.write("                                                </button>\n");
-          out.write("                                            </div>\n");
-          out.write("                                        </td>\n");
-          out.write("                                    </tr>\n");
+          out.write("')\">\r\n");
+          out.write("                                                    <i class=\"glyphicon glyphicon-remove\"></i>\r\n");
+          out.write("                                                </button>\r\n");
+          out.write("                                            </div>\r\n");
+          out.write("                                        </td>\r\n");
+          out.write("                                    </tr>\r\n");
           out.write("                                ");
           int evalDoAfterBody = _jspx_th_c_forEach_0.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -771,15 +771,15 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
     int _jspx_eval_c_choose_0 = _jspx_th_c_choose_0.doStartTag();
     if (_jspx_eval_c_choose_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
-        out.write("\n");
+        out.write("\r\n");
         out.write("                                                ");
         if (_jspx_meth_c_when_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_choose_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("                                                ");
         if (_jspx_meth_c_otherwise_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_choose_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("                                            ");
         int evalDoAfterBody = _jspx_th_c_choose_0.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -806,8 +806,8 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
     int _jspx_eval_c_when_0 = _jspx_th_c_when_0.doStartTag();
     if (_jspx_eval_c_when_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
-        out.write("\n");
-        out.write("                                                    <span class=\"label label-success\">Active</span>\n");
+        out.write("\r\n");
+        out.write("                                                    <span class=\"label label-success\">Active</span>\r\n");
         out.write("                                                ");
         int evalDoAfterBody = _jspx_th_c_when_0.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -833,8 +833,8 @@ public final class users_jsp extends org.apache.jasper.runtime.HttpJspBase
     int _jspx_eval_c_otherwise_0 = _jspx_th_c_otherwise_0.doStartTag();
     if (_jspx_eval_c_otherwise_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       do {
-        out.write("\n");
-        out.write("                                                    <span class=\"label label-danger\">Inactive</span>\n");
+        out.write("\r\n");
+        out.write("                                                    <span class=\"label label-danger\">Inactive</span>\r\n");
         out.write("                                                ");
         int evalDoAfterBody = _jspx_th_c_otherwise_0.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)

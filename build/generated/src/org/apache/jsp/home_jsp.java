@@ -73,25 +73,25 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
 
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
     response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
@@ -104,6 +104,7 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
         return;
     }
 
+      out.write('\r');
       out.write('\n');
 
     // Check user level and redirect if not authorized
@@ -112,39 +113,39 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
     }
 
     // Database connection details
-    String url = "jdbc:mariadb://localhost:3306/pcims";
+    String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
     String dbUser = "root";
-    String password = "";
+    String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 
     // Get alert message from query parameters
     String msg = request.getParameter("msg");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html>\n");
-      out.write("<head>\n");
-      out.write("    <meta charset=\"UTF-8\">\n");
-      out.write("    <title>Inventory Management System</title>\n");
-      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\n");
-      out.write("    <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css\" />\n");
-      out.write("    <link rel=\"stylesheet\" href=\"style.css\" />\n");
-      out.write("    <style>\n");
-      out.write("        .alert-info {\n");
-      out.write("            color: #a94442;\n");
-      out.write("            background-color: #f2dede;\n");
-      out.write("            border-color: #ebccd1;\n");
-      out.write("        }\n");
-      out.write("        .alert {\n");
-      out.write("            padding: 15px;\n");
-      out.write("            margin-bottom: 20px;\n");
-      out.write("            border: 1px solid transparent;\n");
-      out.write("            border-radius: 4px;\n");
-      out.write("        }\n");
-      out.write("    </style>\n");
-      out.write("</head>\n");
-      out.write("<body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html>\r\n");
+      out.write("<head>\r\n");
+      out.write("    <meta charset=\"UTF-8\">\r\n");
+      out.write("    <title>Inventory Management System</title>\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css\" />\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"style.css\" />\r\n");
+      out.write("    <style>\r\n");
+      out.write("        .alert-info {\r\n");
+      out.write("            color: #a94442;\r\n");
+      out.write("            background-color: #f2dede;\r\n");
+      out.write("            border-color: #ebccd1;\r\n");
+      out.write("        }\r\n");
+      out.write("        .alert {\r\n");
+      out.write("            padding: 15px;\r\n");
+      out.write("            margin-bottom: 20px;\r\n");
+      out.write("            border: 1px solid transparent;\r\n");
+      out.write("            border-radius: 4px;\r\n");
+      out.write("        }\r\n");
+      out.write("    </style>\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
       out.write("    ");
       out.write('\n');
       out.write('\n');
@@ -196,32 +197,32 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
         return;
       out.write("\n");
       out.write("</div>\n");
-      out.write("\n");
-      out.write("    <div class=\"pagehome\">\n");
-      out.write("        <div class=\"row\">\n");
-      out.write("            <div class=\"col-md-12\">\n");
+      out.write("\r\n");
+      out.write("    <div class=\"pagehome\">\r\n");
+      out.write("        <div class=\"row\">\r\n");
+      out.write("            <div class=\"col-md-12\">\r\n");
       out.write("                ");
  if (msg != null && !msg.isEmpty()) { 
-      out.write("\n");
-      out.write("                    <div class=\"alert alert-info\">\n");
+      out.write("\r\n");
+      out.write("                    <div class=\"alert alert-info\">\r\n");
       out.write("                        ");
       out.print( msg );
-      out.write("\n");
-      out.write("                    </div>\n");
+      out.write("\r\n");
+      out.write("                    </div>\r\n");
       out.write("                ");
  } 
-      out.write("\n");
-      out.write("            </div>\n");
-      out.write("            <div class=\"col-md-12\">\n");
-      out.write("                <div class=\"panel\">\n");
-      out.write("                    <div class=\"jumbotron text-center\">\n");
-      out.write("                        <h1>Welcome User <hr> Inventory Management System</h1>\n");
-      out.write("                        <p>Browse around to find out the pages that you can access!</p>\n");
-      out.write("                    </div>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("    </div>\n");
+      out.write("\r\n");
+      out.write("            </div>\r\n");
+      out.write("            <div class=\"col-md-12\">\r\n");
+      out.write("                <div class=\"panel\">\r\n");
+      out.write("                    <div class=\"jumbotron text-center\">\r\n");
+      out.write("                        <h1>Welcome User <hr> Inventory Management System</h1>\r\n");
+      out.write("                        <p>Browse around to find out the pages that you can access!</p>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("    </div>\r\n");
       out.write("    ");
       out.write("\n");
       out.write("\n");
@@ -253,9 +254,9 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js\"></script>\n");
       out.write("    <script src=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js\"></script>\n");
       out.write("    <script type=\"text/javascript\" src=\"libs/js/functions.js\"></script>");
-      out.write("\n");
-      out.write("</body>\n");
-      out.write("</html>\n");
+      out.write("\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

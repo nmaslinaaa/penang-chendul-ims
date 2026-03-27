@@ -66,21 +66,21 @@ public final class order_005freport_005fprocess_jsp extends org.apache.jasper.ru
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
 
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
     response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
@@ -93,6 +93,7 @@ public final class order_005freport_005fprocess_jsp extends org.apache.jasper.ru
         return;
     }
 
+      out.write('\r');
       out.write('\n');
 
     // Check user level and redirect if not authorized
@@ -107,9 +108,9 @@ public final class order_005freport_005fprocess_jsp extends org.apache.jasper.ru
 
     if (startDate != null && endDate != null) {
         // Database connection details
-        String url = "jdbc:mariadb://localhost:3306/pcims";
+        String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
         String dbUser = "root";
-        String password = "";
+        String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 
         Connection conn = null;
         PreparedStatement stmt = null;
@@ -192,108 +193,108 @@ public final class order_005freport_005fprocess_jsp extends org.apache.jasper.ru
         return;
     }
 
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html lang=\"en-US\">\n");
-      out.write("<head>\n");
-      out.write("    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n");
-      out.write("    <title>Orders Report</title>\n");
-      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\n");
-      out.write("    <style>\n");
-      out.write("        @media print {\n");
-      out.write("            html, body {\n");
-      out.write("                font-size: 9.5pt;\n");
-      out.write("                margin: 0;\n");
-      out.write("                padding: 0;\n");
-      out.write("            }\n");
-      out.write("            .page-break {\n");
-      out.write("                page-break-before: always;\n");
-      out.write("                width: auto;\n");
-      out.write("                margin: auto;\n");
-      out.write("            }\n");
-      out.write("        }\n");
-      out.write("        .page-break {\n");
-      out.write("            width: 1090px;\n");
-      out.write("            margin: 0 auto;\n");
-      out.write("        }\n");
-      out.write("        .order-head {\n");
-      out.write("            margin: 40px 0;\n");
-      out.write("            text-align: center;\n");
-      out.write("        }\n");
-      out.write("        .order-head h1, .order-head strong {\n");
-      out.write("            padding: 10px 20px;\n");
-      out.write("            display: block;\n");
-      out.write("        }\n");
-      out.write("        .order-head h1 {\n");
-      out.write("            margin: 0;\n");
-      out.write("            border-bottom: 1px solid #212121;\n");
-      out.write("        }\n");
-      out.write("        .table>thead:first-child>tr:first-child>th {\n");
-      out.write("            border-top: 1px solid #000;\n");
-      out.write("        }\n");
-      out.write("        table thead tr th {\n");
-      out.write("            text-align: center;\n");
-      out.write("            border: 1px solid #ededed;\n");
-      out.write("        }\n");
-      out.write("        table tbody tr td {\n");
-      out.write("            vertical-align: middle;\n");
-      out.write("        }\n");
-      out.write("        .order-head, table.table thead tr th, table tbody tr td, table tfoot tr td {\n");
-      out.write("            border: 1px solid #212121;\n");
-      out.write("            white-space: nowrap;\n");
-      out.write("        }\n");
-      out.write("        .order-head h1, table thead tr th, table tfoot tr td {\n");
-      out.write("            background-color: #f8f8f8;\n");
-      out.write("        }\n");
-      out.write("        tfoot {\n");
-      out.write("            color: #000;\n");
-      out.write("            text-transform: uppercase;\n");
-      out.write("            font-weight: 500;\n");
-      out.write("        }\n");
-      out.write("        .text-center{\n");
-      out.write("            text-align: center;\n");
-      out.write("        }\n");
-      out.write("    </style>\n");
-      out.write("</head>\n");
-      out.write("<body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html lang=\"en-US\">\r\n");
+      out.write("<head>\r\n");
+      out.write("    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n");
+      out.write("    <title>Orders Report</title>\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\r\n");
+      out.write("    <style>\r\n");
+      out.write("        @media print {\r\n");
+      out.write("            html, body {\r\n");
+      out.write("                font-size: 9.5pt;\r\n");
+      out.write("                margin: 0;\r\n");
+      out.write("                padding: 0;\r\n");
+      out.write("            }\r\n");
+      out.write("            .page-break {\r\n");
+      out.write("                page-break-before: always;\r\n");
+      out.write("                width: auto;\r\n");
+      out.write("                margin: auto;\r\n");
+      out.write("            }\r\n");
+      out.write("        }\r\n");
+      out.write("        .page-break {\r\n");
+      out.write("            width: 1090px;\r\n");
+      out.write("            margin: 0 auto;\r\n");
+      out.write("        }\r\n");
+      out.write("        .order-head {\r\n");
+      out.write("            margin: 40px 0;\r\n");
+      out.write("            text-align: center;\r\n");
+      out.write("        }\r\n");
+      out.write("        .order-head h1, .order-head strong {\r\n");
+      out.write("            padding: 10px 20px;\r\n");
+      out.write("            display: block;\r\n");
+      out.write("        }\r\n");
+      out.write("        .order-head h1 {\r\n");
+      out.write("            margin: 0;\r\n");
+      out.write("            border-bottom: 1px solid #212121;\r\n");
+      out.write("        }\r\n");
+      out.write("        .table>thead:first-child>tr:first-child>th {\r\n");
+      out.write("            border-top: 1px solid #000;\r\n");
+      out.write("        }\r\n");
+      out.write("        table thead tr th {\r\n");
+      out.write("            text-align: center;\r\n");
+      out.write("            border: 1px solid #ededed;\r\n");
+      out.write("        }\r\n");
+      out.write("        table tbody tr td {\r\n");
+      out.write("            vertical-align: middle;\r\n");
+      out.write("        }\r\n");
+      out.write("        .order-head, table.table thead tr th, table tbody tr td, table tfoot tr td {\r\n");
+      out.write("            border: 1px solid #212121;\r\n");
+      out.write("            white-space: nowrap;\r\n");
+      out.write("        }\r\n");
+      out.write("        .order-head h1, table thead tr th, table tfoot tr td {\r\n");
+      out.write("            background-color: #f8f8f8;\r\n");
+      out.write("        }\r\n");
+      out.write("        tfoot {\r\n");
+      out.write("            color: #000;\r\n");
+      out.write("            text-transform: uppercase;\r\n");
+      out.write("            font-weight: 500;\r\n");
+      out.write("        }\r\n");
+      out.write("        .text-center{\r\n");
+      out.write("            text-align: center;\r\n");
+      out.write("        }\r\n");
+      out.write("    </style>\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
       out.write("    ");
  if (orders.size() > 0) { 
-      out.write("\n");
-      out.write("        <div class=\"page-break\">\n");
-      out.write("            <div class=\"order-head\">\n");
-      out.write("                <h1>Inventory Management System - Orders Report</h1>\n");
+      out.write("\r\n");
+      out.write("        <div class=\"page-break\">\r\n");
+      out.write("            <div class=\"order-head\">\r\n");
+      out.write("                <h1>Inventory Management System - Orders Report</h1>\r\n");
       out.write("                <strong>");
       out.print( startDate );
       out.write(" TILL DATE ");
       out.print( endDate );
-      out.write("</strong>\n");
-      out.write("            </div>\n");
-      out.write("            <table class=\"table table-border\">\n");
-      out.write("                <thead>\n");
-      out.write("                    <tr>\n");
-      out.write("                        <th>Order ID</th>\n");
-      out.write("                        <th>Order Date</th> \n");
-      out.write("                        <th>Item Name</th> \n");
-      out.write("                        <th>Supplier</th> \n");
-      out.write("                        <th>Order Status</th>\n");
-      out.write("                        <th>Order Quantity</th>\n");
-      out.write("                        <th>Item Price (RM)</th>\n");
-      out.write("                        <th>Total (RM)</th>\n");
-      out.write("                        <th>Placed By</th>\n");
-      out.write("                    </tr>\n");
-      out.write("                </thead>\n");
-      out.write("                <tbody>\n");
+      out.write("</strong>\r\n");
+      out.write("            </div>\r\n");
+      out.write("            <table class=\"table table-border\">\r\n");
+      out.write("                <thead>\r\n");
+      out.write("                    <tr>\r\n");
+      out.write("                        <th>Order ID</th>\r\n");
+      out.write("                        <th>Order Date</th> \r\n");
+      out.write("                        <th>Item Name</th> \r\n");
+      out.write("                        <th>Supplier</th> \r\n");
+      out.write("                        <th>Order Status</th>\r\n");
+      out.write("                        <th>Order Quantity</th>\r\n");
+      out.write("                        <th>Item Price (RM)</th>\r\n");
+      out.write("                        <th>Total (RM)</th>\r\n");
+      out.write("                        <th>Placed By</th>\r\n");
+      out.write("                    </tr>\r\n");
+      out.write("                </thead>\r\n");
+      out.write("                <tbody>\r\n");
       out.write("                    ");
       if (_jspx_meth_c_forEach_0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("                </tbody>\n");
-      out.write("                <tfoot>\n");
-      out.write("                    <tr class=\"text-center\">\n");
-      out.write("                        <td colspan=\"4\"></td>\n");
-      out.write("                        <td colspan=\"1\">Total Order Quantity</td>\n");
-      out.write("                        <td colspan=\"1\">\n");
+      out.write("\r\n");
+      out.write("                </tbody>\r\n");
+      out.write("                <tfoot>\r\n");
+      out.write("                    <tr class=\"text-center\">\r\n");
+      out.write("                        <td colspan=\"4\"></td>\r\n");
+      out.write("                        <td colspan=\"1\">Total Order Quantity</td>\r\n");
+      out.write("                        <td colspan=\"1\">\r\n");
       out.write("                            ");
 
                                 int totalOrderQty = 0; // Initialize totalOrderQty
@@ -304,11 +305,11 @@ public final class order_005freport_005fprocess_jsp extends org.apache.jasper.ru
                                 }
                                 out.print(totalOrderQty); // Print the total quantity
                             
-      out.write("\n");
-      out.write("                        </td>\n");
-      out.write("                        <br>    \n");
-      out.write("                        <td colspan=\"1\">Total Order Price (RM)</td>\n");
-      out.write("                        <td colspan=\"1\">\n");
+      out.write("\r\n");
+      out.write("                        </td>\r\n");
+      out.write("                        <br>    \r\n");
+      out.write("                        <td colspan=\"1\">Total Order Price (RM)</td>\r\n");
+      out.write("                        <td colspan=\"1\">\r\n");
       out.write("                            ");
 
                                 double totalOrderPrice = 0.0; // Initialize totalOrderPrice as a double
@@ -319,27 +320,27 @@ public final class order_005freport_005fprocess_jsp extends org.apache.jasper.ru
                                 }
                                 out.print(totalOrderPrice); // 
                             
-      out.write("\n");
-      out.write("                        </td>\n");
-      out.write("                    </tr>\n");
-      out.write("                </tfoot>\n");
-      out.write("\n");
-      out.write("            </table>\n");
-      out.write("            <div class=\"text-center\">\n");
-      out.write("                <a href=\"orders_report.jsp\" class=\"btn btn-primary\">DONE</a>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
+      out.write("\r\n");
+      out.write("                        </td>\r\n");
+      out.write("                    </tr>\r\n");
+      out.write("                </tfoot>\r\n");
+      out.write("\r\n");
+      out.write("            </table>\r\n");
+      out.write("            <div class=\"text-center\">\r\n");
+      out.write("                <a href=\"orders_report.jsp\" class=\"btn btn-primary\">DONE</a>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
       out.write("    ");
  } else { 
-      out.write("\n");
-      out.write("        <div class=\"alert alert-danger\">\n");
-      out.write("            Sorry, no orders have been found.\n");
-      out.write("        </div>\n");
+      out.write("\r\n");
+      out.write("        <div class=\"alert alert-danger\">\r\n");
+      out.write("            Sorry, no orders have been found.\r\n");
+      out.write("        </div>\r\n");
       out.write("    ");
  } 
-      out.write("\n");
-      out.write("</body>\n");
-      out.write("</html>\n");
+      out.write("\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -368,46 +369,46 @@ public final class order_005freport_005fprocess_jsp extends org.apache.jasper.ru
       int _jspx_eval_c_forEach_0 = _jspx_th_c_forEach_0.doStartTag();
       if (_jspx_eval_c_forEach_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
         do {
-          out.write("\n");
-          out.write("                        <tr>\n");
+          out.write("\r\n");
+          out.write("                        <tr>\r\n");
           out.write("                            <td>");
           if (_jspx_meth_c_out_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                            <td>");
           if (_jspx_meth_c_out_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                            <td>");
           if (_jspx_meth_c_out_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                            <td>");
           if (_jspx_meth_c_out_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td> \n");
+          out.write("</td> \r\n");
           out.write("                            <td class=\"text-center\">");
           if (_jspx_meth_c_out_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                            <td class=\"text-center\">");
           if (_jspx_meth_c_out_5((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>                            \n");
+          out.write("</td>                            \r\n");
           out.write("                            <td class=\"text-center\">");
           if (_jspx_meth_c_out_6((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                            <td class=\"text-center\">");
           if (_jspx_meth_c_out_7((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                             <td>");
           if (_jspx_meth_c_out_8((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
-          out.write("                           \n");
-          out.write("                        </tr>\n");
+          out.write("</td>\r\n");
+          out.write("                           \r\n");
+          out.write("                        </tr>\r\n");
           out.write("                    ");
           int evalDoAfterBody = _jspx_th_c_forEach_0.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)

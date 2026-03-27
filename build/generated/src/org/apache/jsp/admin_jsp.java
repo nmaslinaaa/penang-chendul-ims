@@ -80,26 +80,26 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
 
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
     response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
@@ -112,8 +112,8 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         return;
     }
 
-      out.write('\n');
-      out.write('\n');
+      out.write("\r\n");
+      out.write("\r\n");
 
     // Check user level and redirect if not authorized
     if (!PageAccessUtil.pageRequireLevel(request, response, 1)) {
@@ -121,9 +121,9 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
     }
 
     // Database connection details
-    String url = "jdbc:mariadb://localhost:3306/pcims";
+    String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
     String dbUser = "root";
-    String password = "";
+    String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 
     Connection conn = null;
     int c_supplier = 0;
@@ -160,18 +160,18 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         }
     }
 
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html lang=\"en\">\n");
-      out.write("<head>\n");
-      out.write("    <meta charset=\"UTF-8\">\n");
-      out.write("    <title>Admin Home Page</title>\n");
-      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\n");
-      out.write("    <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css\" />\n");
-      out.write("    <link rel=\"stylesheet\" href=\"style.css\" />\n");
-      out.write("</head>\n");
-      out.write("<body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html lang=\"en\">\r\n");
+      out.write("<head>\r\n");
+      out.write("    <meta charset=\"UTF-8\">\r\n");
+      out.write("    <title>Admin Home Page</title>\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css\" />\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"style.css\" />\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
       out.write("    ");
       out.write('\n');
       out.write('\n');
@@ -223,149 +223,149 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         return;
       out.write("\n");
       out.write("</div>\n");
-      out.write("\n");
-      out.write("    <div class=\"page\">\n");
-      out.write("        <div class=\"container-fluid\">\n");
-      out.write("            <div class=\"row\">\n");
-      out.write("                <div class=\"col-md-12\">\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("            <div class=\"row\">\n");
-      out.write("                <a href=\"users.jsp\" style=\"color:black;\">\n");
-      out.write("                    <div class=\"col-md-3\">\n");
-      out.write("                        <div class=\"panel panel-box clearfix\">\n");
-      out.write("                            <div class=\"panel-icon pull-left bg-secondary1\">\n");
-      out.write("                                <i class=\"glyphicon glyphicon-user\"></i>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"panel-value pull-right\">\n");
+      out.write("\r\n");
+      out.write("    <div class=\"page\">\r\n");
+      out.write("        <div class=\"container-fluid\">\r\n");
+      out.write("            <div class=\"row\">\r\n");
+      out.write("                <div class=\"col-md-12\">\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("            <div class=\"row\">\r\n");
+      out.write("                <a href=\"users.jsp\" style=\"color:black;\">\r\n");
+      out.write("                    <div class=\"col-md-3\">\r\n");
+      out.write("                        <div class=\"panel panel-box clearfix\">\r\n");
+      out.write("                            <div class=\"panel-icon pull-left bg-secondary1\">\r\n");
+      out.write("                                <i class=\"glyphicon glyphicon-user\"></i>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"panel-value pull-right\">\r\n");
       out.write("                                <h2 class=\"margin-top\">");
       out.print( c_user );
-      out.write("</h2>\n");
-      out.write("                                <p class=\"text-muted\">Users</p>\n");
-      out.write("                            </div>\n");
-      out.write("                        </div>\n");
-      out.write("                    </div>\n");
-      out.write("                </a>\n");
-      out.write("\n");
-      out.write("                <a href=\"supplier\" style=\"color:black;\">\n");
-      out.write("                    <div class=\"col-md-3\">\n");
-      out.write("                        <div class=\"panel panel-box clearfix\">\n");
-      out.write("                            <div class=\"panel-icon pull-left bg-red\">\n");
-      out.write("                                <i class=\"glyphicon glyphicon-briefcase\"></i>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"panel-value pull-right\">\n");
+      out.write("</h2>\r\n");
+      out.write("                                <p class=\"text-muted\">Users</p>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </a>\r\n");
+      out.write("\r\n");
+      out.write("                <a href=\"supplier\" style=\"color:black;\">\r\n");
+      out.write("                    <div class=\"col-md-3\">\r\n");
+      out.write("                        <div class=\"panel panel-box clearfix\">\r\n");
+      out.write("                            <div class=\"panel-icon pull-left bg-red\">\r\n");
+      out.write("                                <i class=\"glyphicon glyphicon-briefcase\"></i>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"panel-value pull-right\">\r\n");
       out.write("                                <h2 class=\"margin-top\">");
       out.print( c_supplier );
-      out.write("</h2>\n");
-      out.write("                                <p class=\"text-muted\">Suppliers</p>\n");
-      out.write("                            </div>\n");
-      out.write("                        </div>\n");
-      out.write("                    </div>\n");
-      out.write("                </a>\n");
-      out.write("\n");
-      out.write("                <a href=\"item\" style=\"color:black;\">\n");
-      out.write("                    <div class=\"col-md-3\">\n");
-      out.write("                        <div class=\"panel panel-box clearfix\">\n");
-      out.write("                            <div class=\"panel-icon pull-left bg-blue2\">\n");
-      out.write("                                <i class=\"glyphicon glyphicon-shopping-cart\"></i>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"panel-value pull-right\">\n");
+      out.write("</h2>\r\n");
+      out.write("                                <p class=\"text-muted\">Suppliers</p>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </a>\r\n");
+      out.write("\r\n");
+      out.write("                <a href=\"item\" style=\"color:black;\">\r\n");
+      out.write("                    <div class=\"col-md-3\">\r\n");
+      out.write("                        <div class=\"panel panel-box clearfix\">\r\n");
+      out.write("                            <div class=\"panel-icon pull-left bg-blue2\">\r\n");
+      out.write("                                <i class=\"glyphicon glyphicon-shopping-cart\"></i>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"panel-value pull-right\">\r\n");
       out.write("                                <h2 class=\"margin-top\">");
       out.print( c_item );
-      out.write("</h2>\n");
-      out.write("                                <p class=\"text-muted\">Items</p>\n");
-      out.write("                            </div>\n");
-      out.write("                        </div>\n");
-      out.write("                    </div>\n");
-      out.write("                </a>\n");
-      out.write("\n");
-      out.write("                <a href=\"orders.jsp\" style=\"color:black;\">\n");
-      out.write("                    <div class=\"col-md-3\">\n");
-      out.write("                        <div class=\"panel panel-box clearfix\">\n");
-      out.write("                            <div class=\"panel-icon pull-left bg-green\">\n");
-      out.write("                                <i class=\"glyphicon glyphicon-tags\"></i>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"panel-value pull-right\">\n");
+      out.write("</h2>\r\n");
+      out.write("                                <p class=\"text-muted\">Items</p>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </a>\r\n");
+      out.write("\r\n");
+      out.write("                <a href=\"orders.jsp\" style=\"color:black;\">\r\n");
+      out.write("                    <div class=\"col-md-3\">\r\n");
+      out.write("                        <div class=\"panel panel-box clearfix\">\r\n");
+      out.write("                            <div class=\"panel-icon pull-left bg-green\">\r\n");
+      out.write("                                <i class=\"glyphicon glyphicon-tags\"></i>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"panel-value pull-right\">\r\n");
       out.write("                                <h2 class=\"margin-top\">");
       out.print( c_order );
-      out.write("</h2>\n");
-      out.write("                                <p class=\"text-muted\">Orders</p>\n");
-      out.write("                            </div>\n");
-      out.write("                        </div>\n");
-      out.write("                    </div>\n");
-      out.write("                </a>\n");
-      out.write("            </div>\n");
-      out.write("\n");
-      out.write("            <div class=\"row\">\n");
-      out.write("                <div class=\"col-md-4\">\n");
-      out.write("                    <div class=\"panel panel-default\">\n");
-      out.write("                        <div class=\"panel-heading\">\n");
-      out.write("                            <strong>\n");
-      out.write("                                <span class=\"glyphicon glyphicon-th\"></span>\n");
-      out.write("                                <span>RECENTLY ORDER-ITEM</span>\n");
-      out.write("                            </strong>\n");
-      out.write("                        </div>\n");
-      out.write("                        <div class=\"panel-body\">\n");
-      out.write("                            <table class=\"table table-striped table-bordered table-condensed\">\n");
-      out.write("                                <thead>\n");
-      out.write("                                    <tr>\n");
-      out.write("                                        <th class=\"text-center\" style=\"width: 50px;\">#</th>\n");
-      out.write("                                        <th>Item Name</th>\n");
-      out.write("                                        <th>Date</th>\n");
-      out.write("                                        <th class=\"text-center\">Total Order</th>\n");
-      out.write("                                    </tr>\n");
-      out.write("                                </thead>\n");
-      out.write("                                <tbody>\n");
+      out.write("</h2>\r\n");
+      out.write("                                <p class=\"text-muted\">Orders</p>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </a>\r\n");
+      out.write("            </div>\r\n");
+      out.write("\r\n");
+      out.write("            <div class=\"row\">\r\n");
+      out.write("                <div class=\"col-md-4\">\r\n");
+      out.write("                    <div class=\"panel panel-default\">\r\n");
+      out.write("                        <div class=\"panel-heading\">\r\n");
+      out.write("                            <strong>\r\n");
+      out.write("                                <span class=\"glyphicon glyphicon-th\"></span>\r\n");
+      out.write("                                <span>RECENTLY ORDER-ITEM</span>\r\n");
+      out.write("                            </strong>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"panel-body\">\r\n");
+      out.write("                            <table class=\"table table-striped table-bordered table-condensed\">\r\n");
+      out.write("                                <thead>\r\n");
+      out.write("                                    <tr>\r\n");
+      out.write("                                        <th class=\"text-center\" style=\"width: 50px;\">#</th>\r\n");
+      out.write("                                        <th>Item Name</th>\r\n");
+      out.write("                                        <th>Date</th>\r\n");
+      out.write("                                        <th class=\"text-center\">Total Order</th>\r\n");
+      out.write("                                    </tr>\r\n");
+      out.write("                                </thead>\r\n");
+      out.write("                                <tbody>\r\n");
       out.write("                                    ");
       if (_jspx_meth_c_forEach_0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("                                </tbody>\n");
-      out.write("                            </table>\n");
-      out.write("                        </div>\n");
-      out.write("                    </div>\n");
-      out.write("                </div>\n");
-      out.write("\n");
-      out.write("                <div class=\"col-md-5\">\n");
-      out.write("                    <div class=\"panel panel-default\">\n");
-      out.write("                        <div class=\"panel-heading\">\n");
-      out.write("                            <strong>\n");
-      out.write("                                <span class=\"glyphicon glyphicon-th\"></span>\n");
-      out.write("                                <span>Current Quantity</span>\n");
-      out.write("                            </strong>\n");
-      out.write("                        </div>\n");
-      out.write("                        <div class=\"panel-body\">\n");
-      out.write("                            <div class=\"list-group\">\n");
+      out.write("\r\n");
+      out.write("                                </tbody>\r\n");
+      out.write("                            </table>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("\r\n");
+      out.write("                <div class=\"col-md-5\">\r\n");
+      out.write("                    <div class=\"panel panel-default\">\r\n");
+      out.write("                        <div class=\"panel-heading\">\r\n");
+      out.write("                            <strong>\r\n");
+      out.write("                                <span class=\"glyphicon glyphicon-th\"></span>\r\n");
+      out.write("                                <span>Current Quantity</span>\r\n");
+      out.write("                            </strong>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"panel-body\">\r\n");
+      out.write("                            <div class=\"list-group\">\r\n");
       out.write("                                ");
       if (_jspx_meth_c_forEach_1(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("                            </div>\n");
-      out.write("                        </div>\n");
-      out.write("                    </div>\n");
-      out.write("                </div>\n");
-      out.write("                \n");
-      out.write("<!--                <div class=\"col-md-5\">\n");
-      out.write("                    <div class=\"panel panel-default\">\n");
-      out.write("                        <div class=\"panel-heading\">\n");
-      out.write("                            <strong>\n");
-      out.write("                                <span class=\"glyphicon glyphicon-th\"></span>\n");
-      out.write("                                <span>Current Quantity</span>\n");
-      out.write("                            </strong>\n");
-      out.write("                        </div>\n");
-      out.write("                        <div class=\"panel-body\">\n");
-      out.write("                            <div class=\"list-group\">\n");
+      out.write("\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("                \r\n");
+      out.write("<!--                <div class=\"col-md-5\">\r\n");
+      out.write("                    <div class=\"panel panel-default\">\r\n");
+      out.write("                        <div class=\"panel-heading\">\r\n");
+      out.write("                            <strong>\r\n");
+      out.write("                                <span class=\"glyphicon glyphicon-th\"></span>\r\n");
+      out.write("                                <span>Current Quantity</span>\r\n");
+      out.write("                            </strong>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div class=\"panel-body\">\r\n");
+      out.write("                            <div class=\"list-group\">\r\n");
       out.write("                                ");
       if (_jspx_meth_c_forEach_2(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("                            </div>\n");
-      out.write("                        </div>\n");
-      out.write("                    </div>\n");
-      out.write("                </div>-->\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("    </div>\n");
+      out.write("\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>-->\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("    </div>\r\n");
       out.write("    ");
       out.write("\n");
       out.write("\n");
@@ -397,9 +397,9 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js\"></script>\n");
       out.write("    <script src=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js\"></script>\n");
       out.write("    <script type=\"text/javascript\" src=\"libs/js/functions.js\"></script>");
-      out.write("\n");
-      out.write("</body>\n");
-      out.write("</html>\n");
+      out.write("\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
@@ -492,32 +492,32 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
       int _jspx_eval_c_forEach_0 = _jspx_th_c_forEach_0.doStartTag();
       if (_jspx_eval_c_forEach_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
         do {
-          out.write("\n");
-          out.write("                                        <tr>\n");
+          out.write("\r\n");
+          out.write("                                        <tr>\r\n");
           out.write("                                            <td class=\"text-center\">");
           if (_jspx_meth_c_out_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
-          out.write("                                            <td>\n");
+          out.write("</td>\r\n");
+          out.write("                                            <td>\r\n");
           out.write("                                                <a href=\"orders.jsp?id=");
           if (_jspx_meth_c_out_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("\">\n");
+          out.write("\">\r\n");
           out.write("                                                    ");
           if (_jspx_meth_c_out_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("\n");
-          out.write("                                                </a>\n");
-          out.write("                                            </td>\n");
+          out.write("\r\n");
+          out.write("                                                </a>\r\n");
+          out.write("                                            </td>\r\n");
           out.write("                                            <td>");
           if (_jspx_meth_c_out_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
+          out.write("</td>\r\n");
           out.write("                                            <td class=\"text-center\">");
           if (_jspx_meth_c_out_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_0, _jspx_page_context, _jspx_push_body_count_c_forEach_0))
             return true;
-          out.write("</td>\n");
-          out.write("                                        </tr>\n");
+          out.write("</td>\r\n");
+          out.write("                                        </tr>\r\n");
           out.write("                                    ");
           int evalDoAfterBody = _jspx_th_c_forEach_0.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -643,30 +643,30 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
       int _jspx_eval_c_forEach_1 = _jspx_th_c_forEach_1.doStartTag();
       if (_jspx_eval_c_forEach_1 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
         do {
-          out.write("\n");
+          out.write("\r\n");
           out.write("                                    <a class=\"list-group-item clearfix\" href=\"edit_item?id=");
           if (_jspx_meth_c_out_5((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_1, _jspx_page_context, _jspx_push_body_count_c_forEach_1))
             return true;
-          out.write("\">\n");
-          out.write("                                        <h4 class=\"list-group-item-heading\">\n");
+          out.write("\">\r\n");
+          out.write("                                        <h4 class=\"list-group-item-heading\">\r\n");
           out.write("                                            ");
           if (_jspx_meth_c_out_6((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_1, _jspx_page_context, _jspx_push_body_count_c_forEach_1))
             return true;
-          out.write("\n");
-          out.write("                                            <span class=\"label label-warning pull-right\">\n");
+          out.write("\r\n");
+          out.write("                                            <span class=\"label label-warning pull-right\">\r\n");
           out.write("                                                ");
           if (_jspx_meth_c_out_7((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_1, _jspx_page_context, _jspx_push_body_count_c_forEach_1))
             return true;
-          out.write("\n");
-          out.write("                                            </span>\n");
-          out.write("                                        </h4>\n");
-          out.write("                                        <span class=\"list-group-item-text pull-right\">\n");
+          out.write("\r\n");
+          out.write("                                            </span>\r\n");
+          out.write("                                        </h4>\r\n");
+          out.write("                                        <span class=\"list-group-item-text pull-right\">\r\n");
           out.write("                                            ");
           if (_jspx_meth_c_out_8((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_1, _jspx_page_context, _jspx_push_body_count_c_forEach_1))
             return true;
-          out.write("\n");
-          out.write("                                        </span>\n");
-          out.write("                                    </a>\n");
+          out.write("\r\n");
+          out.write("                                        </span>\r\n");
+          out.write("                                    </a>\r\n");
           out.write("                                ");
           int evalDoAfterBody = _jspx_th_c_forEach_1.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -774,30 +774,30 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
       int _jspx_eval_c_forEach_2 = _jspx_th_c_forEach_2.doStartTag();
       if (_jspx_eval_c_forEach_2 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
         do {
-          out.write("\n");
+          out.write("\r\n");
           out.write("                                    <a class=\"list-group-item clearfix\" href=\"edit_item?id=");
           if (_jspx_meth_c_out_9((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_2, _jspx_page_context, _jspx_push_body_count_c_forEach_2))
             return true;
-          out.write("\">\n");
-          out.write("                                        <h4 class=\"list-group-item-heading\">\n");
+          out.write("\">\r\n");
+          out.write("                                        <h4 class=\"list-group-item-heading\">\r\n");
           out.write("                                            ");
           if (_jspx_meth_c_out_10((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_2, _jspx_page_context, _jspx_push_body_count_c_forEach_2))
             return true;
-          out.write("\n");
-          out.write("                                            <span class=\"label label-warning pull-right\">\n");
+          out.write("\r\n");
+          out.write("                                            <span class=\"label label-warning pull-right\">\r\n");
           out.write("                                                ");
           if (_jspx_meth_c_out_11((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_2, _jspx_page_context, _jspx_push_body_count_c_forEach_2))
             return true;
-          out.write("\n");
-          out.write("                                            </span>\n");
-          out.write("                                        </h4>\n");
-          out.write("                                        <span class=\"list-group-item-text pull-right\">\n");
+          out.write("\r\n");
+          out.write("                                            </span>\r\n");
+          out.write("                                        </h4>\r\n");
+          out.write("                                        <span class=\"list-group-item-text pull-right\">\r\n");
           out.write("                                            ");
           if (_jspx_meth_c_out_12((javax.servlet.jsp.tagext.JspTag) _jspx_th_c_forEach_2, _jspx_page_context, _jspx_push_body_count_c_forEach_2))
             return true;
-          out.write("\n");
-          out.write("                                        </span>\n");
-          out.write("                                    </a>\n");
+          out.write("\r\n");
+          out.write("                                        </span>\r\n");
+          out.write("                                    </a>\r\n");
           out.write("                                ");
           int evalDoAfterBody = _jspx_th_c_forEach_2.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)

@@ -73,25 +73,25 @@ public final class add_005fuser_jsp extends org.apache.jasper.runtime.HttpJspBas
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
 
     response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
     response.setHeader("Pragma", "no-cache"); // HTTP 1.0.
@@ -104,6 +104,7 @@ public final class add_005fuser_jsp extends org.apache.jasper.runtime.HttpJspBas
         return;
     }
 
+      out.write('\r');
       out.write('\n');
 
     // Check user level and redirect if not authorized
@@ -112,24 +113,24 @@ public final class add_005fuser_jsp extends org.apache.jasper.runtime.HttpJspBas
     }
 
     // Database connection details
-    String url = "jdbc:mariadb://localhost:3306/pcims";
+    String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
     String dbUser = "root";
-    String password = "";
+    String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html>\n");
-      out.write("<html lang=\"en\">\n");
-      out.write("<head>\n");
-      out.write("    <meta charset=\"UTF-8\">\n");
-      out.write("    <title>Add New User</title>\n");
-      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\n");
-      out.write("    <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css\" />\n");
-      out.write("    <link rel=\"stylesheet\" href=\"style.css\" />\n");
-      out.write("    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n");
-      out.write("</head>\n");
-      out.write("<body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html>\r\n");
+      out.write("<html lang=\"en\">\r\n");
+      out.write("<head>\r\n");
+      out.write("    <meta charset=\"UTF-8\">\r\n");
+      out.write("    <title>Add New User</title>\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\" />\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css\" />\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"style.css\" />\r\n");
+      out.write("    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\r\n");
+      out.write("</head>\r\n");
+      out.write("<body>\r\n");
       out.write("    ");
       out.write('\n');
       out.write('\n');
@@ -181,79 +182,79 @@ public final class add_005fuser_jsp extends org.apache.jasper.runtime.HttpJspBas
         return;
       out.write("\n");
       out.write("</div>\n");
-      out.write("\n");
-      out.write("    <div class=\"pageadduser\">\n");
-      out.write("        <div class=\"container\">\n");
-      out.write("            <div class=\"row\">\n");
+      out.write("\r\n");
+      out.write("    <div class=\"pageadduser\">\r\n");
+      out.write("        <div class=\"container\">\r\n");
+      out.write("            <div class=\"row\">\r\n");
       out.write("                ");
 
                     String error = request.getParameter("error");
                     String success = request.getParameter("success");
                     if (error != null) {
                 
-      out.write("\n");
-      out.write("                    <div class=\"alert alert-danger alert-dismissible\" role=\"alert\">\n");
-      out.write("                        <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n");
-      out.write("                            <span aria-hidden=\"true\">&times;</span>\n");
-      out.write("                        </button>\n");
+      out.write("\r\n");
+      out.write("                    <div class=\"alert alert-danger alert-dismissible\" role=\"alert\">\r\n");
+      out.write("                        <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\r\n");
+      out.write("                            <span aria-hidden=\"true\">&times;</span>\r\n");
+      out.write("                        </button>\r\n");
       out.write("                        ");
       out.print( error );
-      out.write("\n");
-      out.write("                    </div>\n");
+      out.write("\r\n");
+      out.write("                    </div>\r\n");
       out.write("                ");
  } else if (success != null) { 
-      out.write("\n");
-      out.write("                    <div class=\"alert alert-success alert-dismissible\" role=\"alert\">\n");
-      out.write("                        <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\n");
-      out.write("                            <span aria-hidden=\"true\">&times;</span>\n");
-      out.write("                        </button>\n");
-      out.write("                        User account has been created!\n");
-      out.write("                    </div>\n");
+      out.write("\r\n");
+      out.write("                    <div class=\"alert alert-success alert-dismissible\" role=\"alert\">\r\n");
+      out.write("                        <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">\r\n");
+      out.write("                            <span aria-hidden=\"true\">&times;</span>\r\n");
+      out.write("                        </button>\r\n");
+      out.write("                        User account has been created!\r\n");
+      out.write("                    </div>\r\n");
       out.write("                ");
  } 
-      out.write("\n");
-      out.write("                <div class=\"panel panel-default\">\n");
-      out.write("                    <div class=\"panel-heading\">\n");
-      out.write("                        <strong>\n");
-      out.write("                            <span class=\"glyphicon glyphicon-th\"></span>\n");
-      out.write("                            <span>Add New User</span>\n");
-      out.write("                        </strong>\n");
-      out.write("                    </div>\n");
-      out.write("                    <div class=\"panel-body\">\n");
-      out.write("                        <div class=\"col-md-6\">\n");
-      out.write("                        <form method=\"post\" action=\"AddUserServlet\">\n");
-      out.write("                            <div class=\"form-group\">\n");
-      out.write("                                <label for=\"name\">Full Name</label>\n");
-      out.write("                                <input type=\"text\" class=\"form-control\" name=\"full-name\" placeholder=\"Full Name\" required>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"form-group\">\n");
-      out.write("                                <label for=\"username\">Username</label>\n");
-      out.write("                                <input type=\"text\" class=\"form-control\" name=\"username\" placeholder=\"Username\" required>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"form-group\">\n");
-      out.write("                                <label for=\"password\">Password</label>\n");
-      out.write("                                <input type=\"password\" class=\"form-control\" name=\"password\" placeholder=\"Password\" required>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"form-group\">\n");
-      out.write("                                <label for=\"level\">User Role</label>\n");
-      out.write("                                <select class=\"form-control\" name=\"level\" required>\n");
-      out.write("                                    <option value=\"\">Select Role</option>\n");
-      out.write("                                    <option value=\"1\">Manager</option>\n");
-      out.write("                                    <option value=\"2\">Supervisor</option>\n");
-      out.write("                                </select>\n");
-      out.write("                            </div>\n");
-      out.write("                            <div class=\"form-group clearfix\">\n");
-      out.write("                                <button type=\"submit\" name=\"add_user\" class=\"btn btn-primary\">Add User</button>\n");
-      out.write("                                <button type=\"button\" name=\"cancel\" onclick=\"window.history.back();\" class=\"btn btn-danger\">Cancel</button>\n");
-      out.write("                            </div>\n");
-      out.write("                        </form>\n");
-      out.write("\n");
-      out.write("                        </div>\n");
-      out.write("                    </div>\n");
-      out.write("                </div>\n");
-      out.write("            </div>\n");
-      out.write("        </div>\n");
-      out.write("    </div>\n");
+      out.write("\r\n");
+      out.write("                <div class=\"panel panel-default\">\r\n");
+      out.write("                    <div class=\"panel-heading\">\r\n");
+      out.write("                        <strong>\r\n");
+      out.write("                            <span class=\"glyphicon glyphicon-th\"></span>\r\n");
+      out.write("                            <span>Add New User</span>\r\n");
+      out.write("                        </strong>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                    <div class=\"panel-body\">\r\n");
+      out.write("                        <div class=\"col-md-6\">\r\n");
+      out.write("                        <form method=\"post\" action=\"AddUserServlet\">\r\n");
+      out.write("                            <div class=\"form-group\">\r\n");
+      out.write("                                <label for=\"name\">Full Name</label>\r\n");
+      out.write("                                <input type=\"text\" class=\"form-control\" name=\"full-name\" placeholder=\"Full Name\" required>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"form-group\">\r\n");
+      out.write("                                <label for=\"username\">Username</label>\r\n");
+      out.write("                                <input type=\"text\" class=\"form-control\" name=\"username\" placeholder=\"Username\" required>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"form-group\">\r\n");
+      out.write("                                <label for=\"password\">Password</label>\r\n");
+      out.write("                                <input type=\"password\" class=\"form-control\" name=\"password\" placeholder=\"Password\" required>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"form-group\">\r\n");
+      out.write("                                <label for=\"level\">User Role</label>\r\n");
+      out.write("                                <select class=\"form-control\" name=\"level\" required>\r\n");
+      out.write("                                    <option value=\"\">Select Role</option>\r\n");
+      out.write("                                    <option value=\"1\">Manager</option>\r\n");
+      out.write("                                    <option value=\"2\">Supervisor</option>\r\n");
+      out.write("                                </select>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"form-group clearfix\">\r\n");
+      out.write("                                <button type=\"submit\" name=\"add_user\" class=\"btn btn-primary\">Add User</button>\r\n");
+      out.write("                                <button type=\"button\" name=\"cancel\" onclick=\"window.history.back();\" class=\"btn btn-danger\">Cancel</button>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </form>\r\n");
+      out.write("\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("    </div>\r\n");
       out.write("    ");
       out.write("\n");
       out.write("\n");
@@ -285,9 +286,9 @@ public final class add_005fuser_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js\"></script>\n");
       out.write("    <script src=\"//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js\"></script>\n");
       out.write("    <script type=\"text/javascript\" src=\"libs/js/functions.js\"></script>");
-      out.write("\n");
-      out.write("</body>\n");
-      out.write("</html>\n");
+      out.write("\r\n");
+      out.write("</body>\r\n");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

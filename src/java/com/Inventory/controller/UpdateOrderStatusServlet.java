@@ -27,7 +27,7 @@ public class UpdateOrderStatusServlet extends HttpServlet {
         String message = "";
         String alertClass = "";
 
-        String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
+        String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=true&requireSSL=true&verifyServerCertificate=false";
         String dbUser = "root";
         String password = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
         Connection connection = null;

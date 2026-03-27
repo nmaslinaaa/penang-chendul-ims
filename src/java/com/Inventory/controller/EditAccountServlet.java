@@ -41,7 +41,7 @@ public class EditAccountServlet extends HttpServlet {
         String alertClass = "";
 
         // Database connection details
-        String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
+        String url = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=true&requireSSL=true&verifyServerCertificate=false";
         String dbUser = "root";
         String dbPassword = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 

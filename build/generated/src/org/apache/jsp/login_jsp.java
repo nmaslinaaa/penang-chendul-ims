@@ -159,7 +159,6 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <div class=\"loginHeader\">\n");
       out.write("\t\t\t<h1>PENANG CHENDUL</h1>\n");
       out.write("    </div>\n");
-      out.write("    \n");
       out.write("    <div class=\"login-page\">\n");
       out.write("        <div class=\"text-center\">\n");
       out.write("            <h1>Login Panel</h1>\n");
@@ -186,7 +185,7 @@ public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                <input type=\"name\" class=\"form-control\" name=\"username\" placeholder=\"Username\" required>\n");
       out.write("            </div>\n");
       out.write("            <div class=\"form-group\">\n");
-      out.write("                <label for=\"Password\" class=\"control-label\">Password (eg; Demo1006@)</label>\n");
+      out.write("                <label for=\"Password\" class=\"control-label\">Password</label>\n");
       out.write("                <input type=\"password\"  name=\"password\" class=\"form-control\" placeholder=\"Password\" required>\n");
       out.write("            </div>\n");
       out.write("            <div class=\"form-group\">\n");
