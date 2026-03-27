@@ -73,9 +73,9 @@ public class AddUserServlet extends HttpServlet {
         }
 
         // Database URL, username, and password
-        String dbUrl = "jdbc:mysql://interchange.proxy.rlwy.net:33380/railway";
+        String dbUrl = "jdbc:mysql://crossover.proxy.rlwy.net:18818/railway?useSSL=false&allowPublicKeyRetrieval=true";
         String dbUser = "root";
-        String dbPassword = "BCptazPhAsXTGhZpcFQuRtWyUjWsujjN";
+        String dbPassword = "qNlcSowNDJcrRXRHZHdokKkdpabmZipu";
 
         try (Connection conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword)) {
             // Check if a user with the same full name exists
